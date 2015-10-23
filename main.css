@@ -14,7 +14,9 @@ h1.band-name {
 .headline{
   font-size:60px;
 }
-
+.main-content{
+  padding-right: 5%;
+}
 .profile{
   margin-top:3px;
 
@@ -25,11 +27,47 @@ h1.band-name {
   border-radius: 100%;
 
 }
-.social-profile{
+.social-profile a{
   font-size: .6em;
   color:#606060;
   font-weight: bold;
 }
 .advertisement{
   margin-top:20px;
+}
+.nav li a {
+  color:#fff;
+
+}
+p{
+  font-family: Garamond,serif;
+  font-size: 1.2em;
+}
+.nav li a:hover{
+  background-color: #A1A1A3;
+}
+.sidebar{
+  margin-left: 25px;
+}
+.sidebar p{
+  font-size:1em;
+  color:#c0c0c0;
+}
+.article-options{
+  margin-top:25px;
+}
+.article-options .btn{
+  margin-left:5px;
+  background-color: #6FA1CC;
+  border-radius: 0;
+}
+.article-options .btn:hover{
+  background-color: #416497;
+}
+.article-options .btn span {
+  margin-right: 15px;
+}
+.content-separator{
+  border-top:1px solid #c0c0c0;
+  margin-top:25px
 }
