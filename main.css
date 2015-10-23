@@ -4,6 +4,14 @@
   background-repeat: no-repeat;
   height:450px;
 }
+.logo img{
+  max-height:100px;
+}
+.logo h1{
+}
+.white{
+  color:white;
+}
 h1.band-name {
   color:#fff;
   font-family: Helvetica;
@@ -60,14 +68,60 @@ p{
   margin-left:5px;
   background-color: #6FA1CC;
   border-radius: 0;
+  text-align: center;
 }
+
 .article-options .btn:hover{
   background-color: #416497;
-}
-.article-options .btn span {
-  margin-right: 15px;
+  color:white;
 }
 .content-separator{
   border-top:1px solid #c0c0c0;
   margin-top:25px
+}
+.content-separator h1{
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.other-products{
+  padding: 0;
+
+}
+.other-products div, .other-products div img{
+  height:200px;
+  color: #000;
+}
+.other-products div h1{
+  position:absolute;
+  bottom:0;
+
+}
+.other-products>div{
+  padding:0;
+
+}
+.product1{
+  background-image: url("images/home.png");
+  background-size: cover;
+}
+.product2{
+  background-image: url("images/boyfights.png");
+  background-size: cover;
+}
+.product3{
+  background-image: url("images/cookout-boyfights.png");
+  background-size: cover;
+}
+.product4{
+  background-image: url("images/backseat-boyfights.png");
+  background-size: cover;
+  padding:0;
+}
+.overlay {
+    background-color: rgba(111,161,204,.7);
+    width:100%;
+}
+.overlay:hover{
+    background-color: rgba(0, 0, 50, 0.0);
+    color:#fff;
 }
