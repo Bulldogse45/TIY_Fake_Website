@@ -125,3 +125,15 @@ p{
     background-color: rgba(0, 0, 50, 0.0);
     color:#fff;
 }
+footer{
+  background-color: #415A92;
+}
+.footer-logo img{
+  max-height: 50px;
+  margin: 20px 0;
+  display: inline;
+}
+.footer-logo p{
+  color:white;
+  display: inline;
+}
