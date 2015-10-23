@@ -1,13 +1,18 @@
+*{
+  font-family: Helvetica;
+}
+
 .jumbotron{
   background-image: url("images/Cornballs-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height:450px;
+  height:400px;
 }
 .logo img{
   max-height:100px;
 }
-.logo h1{
+.logo{
+  color:white;
 }
 .white{
   color:white;
@@ -141,6 +146,7 @@ footer{
   border-left:navy solid 1px;
   margin-top: 35px;
 }
+
 .footer-nav li a{
   padding-top:0;
   padding-bottom:0;
