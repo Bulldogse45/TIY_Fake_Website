@@ -93,50 +93,7 @@
     </div>
   </div>
   <div class="container-fluid other-products">
-
-    <% products.each do |product| %>
-      <div class="col-lg-3 col-md-3 col-sm-12  <%= product[:class] %>">
-        <div class="col-lg-3 col-md-3 col-sm-12  overlay">
-          <h1 class="text-capitalize"><%= product[:text] %></h1>
-        </div>
-      </div>
-    <% end %>
-
-    <!--
-    <div class="ccol-lg-3 col-md-3 col-sm-12  product2">
-      <div class="col-lg-3 col-md-3 col-sm-12  overlay">
-        <h1>BOYFIGHTS</h1>
-      </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-12  product3">
-      <div class="col-lg-3 col-md-3 col-sm-12  overlay">
-        <h1>COOKOUT BOYFIGHTS</h1>
-      </div>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-12  product4">
-      <div class="col-lg-3 col-md-3 col-sm-12  overlay">
-        <h1>BACKSEAT BOYFIGHTS</h1>
-      </div>
-    </div> -->
-  </div>
-  <footer class="container-fluid">
-    <div class="col-xs-1"></div>
-    <div class="ccol-lg-4 col-md-4 col-sm-12  footer-logo">
-      <img class="img-responsive" src="images/mr-banana-grabber.png"/>
-      <p>Bluth Industries</p>
-    </div>
-    <div class="col-xs-2"></div>
-    <div class="col-lg-5 col-md-5 col-sm-12  container-fluid">
-      <ul class="nav navbar-nav footer-nav">
-        <% links.each do |l| %>
-          <li><a href="#"><%= l[:link] %></a></li>
-    <!--      <li><a href="#">link2</a></li>
-          <li><a href="#">link3</a></li>
-          <li><a href="#">link4</a></li>
-          <li><a href="#">link5</a></li>-->
-          <% end %>
-    </div>
-  </footer>
+  <%= yield %>
 </body>
 
 
