@@ -1,7 +1,5 @@
 require 'sinatra'
 
-
-
 get "/:title"  do
   links=[{link:"link1"},{link:"link2"},{link:"link3"}, {link:"Link4"}, {link:"Link5"}]
 
