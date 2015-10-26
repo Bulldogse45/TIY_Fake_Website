@@ -145,6 +145,7 @@ footer{
 .footer-nav li{
   border-left:navy solid 1px;
   margin-top: 35px;
+  display: inline-block;
 }
 
 .footer-nav li a{
